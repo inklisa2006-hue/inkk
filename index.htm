@@ -1,11 +1,12 @@
-Put your HTML text here<!DOCTYPE html>
-<html lang="th">
-<head>
+<!DOCTYPE html>
+<html lang="th"><head></head><body>Put your HTML text here
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INK BRACELET - กำไรข้อมือเงินแท้ ดีไซน์เรียบหรู</title>
     <!-- Google Fonts & FontAwesome -->
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
@@ -325,8 +326,8 @@ Put your HTML text here<!DOCTYPE html>
             .hero p { font-size: 15px; }
         }
     </style>
-</head>
-<body>
+
+
 
     <!-- Header -->
     <header>
@@ -342,7 +343,7 @@ Put your HTML text here<!DOCTYPE html>
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1>กำไรข้อมือดีไซน์เรียบหรู คลาสสิกเหนือกาลเวลา</h1>
+            <h1>น.ส.อังคณา ตุ๊สำราญ ออกแบบผลิตภัณฑ์</h1>
             <p>สะท้อนตัวตนของคุณด้วยเครื่องประดับโทนสีเงินเมทัลลิกพรีเมียม</p>
         </div>
     </section>
@@ -351,8 +352,46 @@ Put your HTML text here<!DOCTYPE html>
     <main class="container">
         <h2 class="section-title">คอลเลกชันสินค้าทั้งหมด</h2>
         <div class="products-grid" id="productGrid">
-            <!-- สินค้าจะถูกเรนเดอร์ด้วย JavaScript ด้านล่าง -->
-        </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="INK Minimalist Silver" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">INK Minimalist Silver</h3>
+                        <p class="product-desc">กำไรข้อมือเงินแท้ ดีไซน์เรียบหรู สวมใส่ง่ายได้ทุกวัน</p>
+                        <div class="product-price">฿1,290</div>
+                        <button class="add-to-cart" onclick="addToCart(1)">เพิ่มลงตะกร้า</button>
+                    </div>
+                </div>
+            
+                <div class="product-card">
+                    <img src="images/kama.jpg" alt="INK Classic Chain" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">INK Classic Chain</h3>
+                        <p class="product-desc">กำไรโซ่เงินรมดำ ดีไซน์เท่ โดดเด่นอย่างมีสไตล์</p>
+                        <div class="product-price">฿1,590</div>
+                        <button class="add-to-cart" onclick="addToCart(2)">เพิ่มลงตะกร้า</button>
+                    </div>
+                </div>
+            
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="INK Glossy Cuff" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">INK Glossy Cuff</h3>
+                        <p class="product-desc">กำไรข้อมือแบบเปิดเงางาม พรีเมียม สไตล์โมเดิร์น</p>
+                        <div class="product-price">฿1,890</div>
+                        <button class="add-to-cart" onclick="addToCart(3)">เพิ่มลงตะกร้า</button>
+                    </div>
+                </div>
+            
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="INK Geometric Silver" class="product-img">
+                    <div class="product-info">
+                        <h3 class="product-name">INK Geometric Silver</h3>
+                        <p class="product-desc">กำไรข้อมือลายเรขาคณิต เรียบโก้ ทันสมัย</p>
+                        <div class="product-price">฿1,450</div>
+                        <button class="add-to-cart" onclick="addToCart(4)">เพิ่มลงตะกร้า</button>
+                    </div>
+                </div>
+            </div>
     </main>
 
     <!-- Cart Modal -->
@@ -374,7 +413,7 @@ Put your HTML text here<!DOCTYPE html>
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 INK BRACELET. All Rights Reserved. | เรียบหรู ดูแพง ในทุกโอกาส</p>
+            <p>© 2026 INK BRACELET. All Rights Reserved. | เรียบหรู ดูแพง ในทุกโอกาส</p>
         </div>
     </footer>
 
@@ -522,5 +561,5 @@ Put your HTML text here<!DOCTYPE html>
         // โหลดข้อมูลสินค้าเมื่อเปิดหน้าเว็บ
         window.onload = renderProducts;
     </script>
-</body>
-</html>
+
+</body></html>
